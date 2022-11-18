@@ -1,0 +1,76 @@
+body {
+  display: flex;
+}
+
+.game {
+  width: 500px;
+  height: 730px;
+  position: absolute;
+  left: 80px;
+}
+
+.borderLeft {
+  position: absolute;
+  background-color: white;
+  width: 80px;
+  height: 790px;
+  z-index: +2;
+}
+
+.borderRight {
+  position: absolute;
+  background-color: white;
+  width: 80px;
+  height: 790px;
+  z-index: +2;
+  left: 580px;
+}
+
+.gameSky {
+  position: absolute;
+  background-color: white;
+  width: 660px;
+  height: 50px;
+  z-index: +2;
+  top: -50px;
+}
+
+.sky {
+  position: absolute;
+  background-image: url(sky.png);
+  width: 500px;
+  height: 580px;
+}
+
+.ground {
+  position: absolute;
+  background-image: url(ground.png);
+  width: 500px;
+  height: 150px;
+  top: 580px;
+  z-index: +1;
+}
+
+.bird {
+  position: absolute;
+  background-image: url(flappy-bird.png);
+  width: 60px;
+  height: 45px;
+  left: 220px;
+  bottom: 100px;
+}
+
+.pipe {
+  position: absolute;
+  background-image: url(pipe.png);
+  width: 60px;
+  height: 265px;
+}
+
+.topPipe {
+  transform: rotate(180deg);
+  position: absolute;
+  background-image: url(pipe.png);
+  width: 60px;
+  height: 400px;
+}
